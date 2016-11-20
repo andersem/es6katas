@@ -1,4 +1,4 @@
-// ??: Promise - chaining and handling errors 
+// 80: Promise - chaining and handling errors
 // To do: make all tests pass, leave the assert lines unchanged!
 
 var assert = require('chai').assert;
