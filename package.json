@@ -1,0 +1,15 @@
+{
+  "name": "es6katas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "__raw-metadata__.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.1.2"
+  }
+}
