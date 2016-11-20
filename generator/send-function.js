@@ -1,6 +1,7 @@
 // 56: Generator - Send function to a generator
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('pass a function to a generator', () => {
 
   it('the generator can receive a function as a value', function() {

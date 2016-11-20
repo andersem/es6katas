@@ -1,6 +1,7 @@
 // 20: spread - with-arrays
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('spread with arrays', () => {
 
   it('extracts each array item', function() {

@@ -1,6 +1,7 @@
 // 64: Set - delete
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`set.delete()` deletes an element from a set', function(){
 
   let set;

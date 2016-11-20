@@ -1,6 +1,7 @@
 // 48: Set - add
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`add()` appends a new element to the end of a Set object.', function(){
 
   let set;

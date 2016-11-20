@@ -19,6 +19,7 @@ class ConsumableUsers {
   }
 }
 
+var assert = require('chai').assert;
 describe('Iterator usages', () => {
 
   let usersIterable;

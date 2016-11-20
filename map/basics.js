@@ -1,6 +1,7 @@
 // 44: Map - basics
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Map` is a key/value map', function(){
 
   it('`Map` is a new global constructor function', function() {

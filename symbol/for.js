@@ -1,6 +1,7 @@
 // 35: Symbol.for - retrieves or creates a runtime-wide symbol
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Symbol.for` for registering Symbols globally', function() {
   
   it('creates a new symbol (check via `typeof`)', function() {

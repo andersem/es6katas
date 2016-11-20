@@ -1,6 +1,7 @@
 // 78: Promise - API overview
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Promise` API overview', function() {
 
   it('`new Promise()` requires a function as param', () => {

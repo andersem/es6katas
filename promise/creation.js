@@ -1,6 +1,7 @@
 // 76: Promise - creation 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('a promise can be created in multiple ways', function() {
 
   describe('creating a promise fails when', function() {

@@ -4,6 +4,7 @@
 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('string is a built-in iterable object', function() {
   
   const s = 'abc';

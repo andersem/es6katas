@@ -1,6 +1,7 @@
 // 28: class - super in constructor
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('class', () => {
 
   it('if you `extend` a class, use `super()` to call the parent constructor', () => {

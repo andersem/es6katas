@@ -15,6 +15,7 @@ class LexicallyBound {
   
 }
 
+var assert = require('chai').assert;
 describe('arrow functions have lexical `this`, no dynamic `this`', () => {
  
   it('bound at definition time, use `=>` ', function() {

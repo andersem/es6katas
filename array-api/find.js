@@ -1,6 +1,7 @@
 // 32: array - `Array.prototype.find` 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Array.prototype.find` makes finding items in arrays easier', () => {
 
   it('takes a compare function', function() {

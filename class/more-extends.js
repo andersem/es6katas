@@ -1,6 +1,7 @@
 // 26: class - more-extends
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('class can inherit from another', () => {
 
   it('extend an `old style` "class", a function, still works', () => {

@@ -1,6 +1,7 @@
 // 66: object-literal - getter
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('An object literal can also contain getters', () => {
 
   it('just prefix the property with `get` (and make it a function)', function() {

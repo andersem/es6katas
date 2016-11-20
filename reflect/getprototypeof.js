@@ -1,6 +1,7 @@
 // 60: Reflect - getPrototypeOf 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Reflect.getPrototypeOf` returns the prototype', function() {
 
   it('works like `Object.getPrototypeOf`', function() {

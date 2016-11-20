@@ -1,6 +1,7 @@
 // 17: unicode - in strings
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert; 
 describe('unicode strings', () => {
 
   it('are \\u prefixed', () => {

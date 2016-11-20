@@ -1,6 +1,7 @@
 // 57: Default parameters - basics
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('default parameters make function parameters more flexible', () => {
 
   it('define it using an assignment to the parameter `function(param=1){}`', function() {

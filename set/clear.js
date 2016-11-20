@@ -1,6 +1,7 @@
 // 70: Set - clear
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`clear()` removes all elements from a Set object.', function(){
 
   let set;

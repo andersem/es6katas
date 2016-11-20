@@ -4,6 +4,7 @@
 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('array is a built-in iterable object', function() {
   
   const arr = ['a', 'B', 'see'];

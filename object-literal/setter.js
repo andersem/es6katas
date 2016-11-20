@@ -1,6 +1,7 @@
 // 67: object-literal - setter
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert; 
 describe('An object literal can also contain setters', () => {
 
   describe('defining: a setter', function() {

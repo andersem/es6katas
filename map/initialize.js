@@ -1,6 +1,7 @@
 // 53: Map - initialize
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('initialize a `Map`', function(){
 
   it('a `new Map()` is empty, has size=0', function() {

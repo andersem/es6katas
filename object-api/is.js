@@ -1,6 +1,7 @@
 // 54: Object - is
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Object.is()` determines whether two values are the same', function(){
 
   describe('scalar values', function() {

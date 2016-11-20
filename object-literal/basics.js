@@ -1,6 +1,7 @@
 // 9: object-literals - basics
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('The object literal allows for new shorthands', () => {
 
   const x = 1;

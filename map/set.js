@@ -1,6 +1,7 @@
 // 46: Map.prototype.set()
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Map.prototype.set` adds a new element with key and value to a Map', function(){
 
   it('simplest use case is `set(key, value)` and `get(key)`', function() {

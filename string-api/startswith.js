@@ -1,6 +1,7 @@
 // 72: String - `startsWith()` 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`str.startsWith(searchString)` determines whether `str` begins with `searchString`.', function() {
 
   const s = 'the string s';

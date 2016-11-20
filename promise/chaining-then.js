@@ -1,6 +1,7 @@
 // 77: Promise - chaining 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('chaining multiple promises can enhance readability', () => {
 
   describe('prerequisites for understanding', function() {

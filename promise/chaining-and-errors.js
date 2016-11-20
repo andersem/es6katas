@@ -1,6 +1,7 @@
 // ??: Promise - chaining and handling errors 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('error handling in chained promises', () => {
   
   it('normal functions used in a promise become promises, when they throw `catch()` can be used, no need for `new Promise()` every time', function() {

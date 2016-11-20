@@ -1,6 +1,7 @@
 // 50: Generator - iterator
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('a generator returns an iterable object', function() {
   
   function* generatorFunction(){

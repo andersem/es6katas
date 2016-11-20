@@ -3,6 +3,7 @@
 // Here we use promises to trigger, don't modify the block with the 
 // returning promise!
 
+var assert = require('chai').assert;
 describe('`catch()` returns a Promise and deals with rejected cases only', () => {
 
   describe('prerequisites for understanding', () => {

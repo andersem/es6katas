@@ -1,6 +1,7 @@
 // 51: Generator - Yield Expressions
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('generator - `yield` is used to pause and resume a generator function', () => {
 
   function* generatorFunction() {

@@ -1,6 +1,7 @@
 // 71: String - `repeat()` 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`str.repeat(x)` appends `x` copies of `str` to each other and returns it', function() {
 
   describe('pass the count to `str.repeat(count)`', function() {

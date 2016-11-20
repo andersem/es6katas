@@ -1,6 +1,7 @@
 // 41: array - entries
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`[].entries()` returns an iterator object with all entries', function() {
   
   it('returns key+value for each element', function() {

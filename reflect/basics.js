@@ -1,6 +1,7 @@
 // 58: Reflect - basics
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Reflect` basics', function() {
   
   describe('Reflect is special, it is different to e.g. `Object`', function() {

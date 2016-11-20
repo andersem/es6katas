@@ -1,6 +1,7 @@
 // 68: Reflect - construct 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Reflect.construct` is the `new` operator as a function', function() {
 
   describe('the function itself', function() {

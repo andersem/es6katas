@@ -1,6 +1,7 @@
 // 63: String - `includes()` 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`string.includes()` finds string within another string', function() {
 
   describe('find a single character', function() {

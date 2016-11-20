@@ -3,6 +3,7 @@
 
 import assert from 'assert'; // is only here for completeness, `assert` is always imported by default
 
+var assert = require('chai').assert;
 describe('use `import` to import functions that have been exported (somewhere else)', function() {
 
   describe('the import statement', function() {

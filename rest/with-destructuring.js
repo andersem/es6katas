@@ -1,6 +1,7 @@
 // 19: rest - with-destructuring
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('rest with destructuring', () => {
     
   it('rest parameter must be last', () => {

@@ -1,6 +1,7 @@
 // 15: destructuring - assign
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert; 
 describe('assign object property values to new variables while destructuring', () => {
 
   describe('for simple objects', function() {

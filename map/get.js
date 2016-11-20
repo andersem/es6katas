@@ -1,6 +1,7 @@
 // 45: Map.prototype.get()
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Map.prototype.get` returns the element from the map for a key', function(){
 
   it('`get(key)` returns the value stored for this key', function() {

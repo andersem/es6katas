@@ -1,6 +1,7 @@
 // 43: array - `Array.prototype.values` 
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('`Array.prototype.values` returns an iterator for all values in the array', () => {
 
   it('`values()` returns an iterator', function() {

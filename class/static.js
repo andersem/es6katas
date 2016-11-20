@@ -1,6 +1,7 @@
 // 24: class - static keyword
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('inside a class you can use the `static` keyword', () => {
 
   describe('for methods', () => {

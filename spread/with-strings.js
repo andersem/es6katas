@@ -1,6 +1,7 @@
 // 21: spread - with-strings
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('spread with strings', () => {
 
   it('simply spread each char of a string', function() {

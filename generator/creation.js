@@ -1,6 +1,7 @@
 // 49: Generator - creation
 // To do: make all tests pass, leave the assert lines unchanged!
 
+var assert = require('chai').assert;
 describe('generator can be created in multiple ways', function() {
   
   it('the most common way is by adding `*` after `function`', function() {
